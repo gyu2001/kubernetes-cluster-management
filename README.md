@@ -6,15 +6,15 @@
 
 ## Architecture
 
-    [ Control Plane ]
-            │
-      ┌─────┼─────┐
-      │           │
-  [ Worker1 ]  [ Worker2 ]
-      │           │
-   [ Pod ]      [ Pod ]
-
----
+\`\`\`
+        [ Control Plane ]
+                │
+        ┌───────┴───────┐
+        │               │
+   [ Worker1 ]      [ Worker2 ]
+        │               │
+     [ Pod ]          [ Pod ]
+\`\`\`
 
 ## Tech Stack
 
