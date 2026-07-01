@@ -69,3 +69,6 @@ sudo systemctl restart kubelet
 
 **배운 점**
 절차를 따라가는 것과 각 단계가 왜 필요한지 이해하는 건 다르다는 걸 실감함. 이후 모든 작업에서 각 단계를 제거하거나 변경해보며 이유를 직접 확인하는 습관이 생김
+
+## 📄 발표 자료
+[프로젝트 발표 자료 보기](./kubernetes-cluster-management.pdf)
