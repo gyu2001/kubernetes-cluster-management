@@ -43,17 +43,6 @@ Control Plane 1대 + Worker Node 2대로 구성된 kubeadm 기반 멀티 노드 
 
 ---
 
-## 검증 결과
-
-*(내일 스크린샷 추가 예정)*
-
-- [ ] 업그레이드 전 kubectl get nodes — 전 노드 Ready
-- [ ] 업그레이드 후 Worker NotReady 상태 화면
-- [ ] daemon-reload / kubelet 재시작 조치 화면
-- [ ] 조치 후 kubectl get nodes — 다시 Ready 상태 (Before/After 비교)
-
----
-
 ## 발표 자료
 
 [프로젝트 발표 자료 보기](https://github.com/gyu2001/kubernetes-cluster-management/blob/main/kubernetes-cluster-management.pdf)
