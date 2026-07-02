@@ -6,7 +6,7 @@
 
 ## Architecture
 
-Control Plane 1대 + Worker Node 2대로 구성된 kubeadm 기반 멀티 노드 클러스터입니다. 각 Worker 노드는 Pod를 실행하며, Control Plane이 전체 클러스터 상태를 관리합니다.
+![Architecture](/architecture.svg)
 
 ## Tech Stack
 
